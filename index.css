@@ -7,3 +7,12 @@ body{
     width: auto;
     height: 700px;
 }
+.first-section{
+    margin-top: 70px;
+}
+.top{
+    margin-top: 0px;
+    position: relative;
+    bottom: 50px;
+
+}
