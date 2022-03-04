@@ -20,9 +20,20 @@
     <title> AkanNames</title>
 </head>
 <body>
-<!-- added a nav -->
-  <div class="container">
 
+<!-- adding a logo -->
+<nav class="navbar navbar-expand-sm ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="Assets/potrait.jpg" alt="Avatar Logo" style="width:40px; margin-left: 40px; margin-top: 40px;" class="rounded-pill"> 
+    </a>
+  </div>
+</nav>
+<!-- added a nav -->
+
+
+  <div class="container">
+    <div class="top">
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
@@ -37,7 +48,7 @@
         <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
-  
+  </div>
   <!-- first section -->
 
 <section class=" first-section">
@@ -45,18 +56,19 @@
 
   <div class="row">
     <div class="col-sm-6 ">
-      <h1> Akan names</h1>
+      <h1 id="Akan"> Akan names </h1>
 
-      <p> This page takes a user's birthday and calculates the day of the week ,
+      <p id="desc"> This page takes a user's birthday and calculates the day of the week ,
         they were born and then depending on their gender outputs their Akan Name</p>
     </div>
     <div class="col-sm-6">
       <img class="img-one" src="Assets/afri.jpg">
     </div>
   </div>
+</section>
 </div>
 
-</section>
+
 <script src="index.js"></script>
 </body>
 </html>
