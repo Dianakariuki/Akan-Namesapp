@@ -16,3 +16,23 @@ body{
     bottom: 50px;
 
 }
+#Akan{
+font-family: Haas Grot Text R Web, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color:whitesmoke;
+
+}
+
+#desc{
+
+font-family: Haas Grot Text R Web, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 16px;
+color: whitesmoke;
+
+}
