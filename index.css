@@ -3,3 +3,7 @@ body{
     background-color: rgb(43, 38, 38);
     color: white;
 }
+.img-one{
+    width: auto;
+    height: 700px;
+}
