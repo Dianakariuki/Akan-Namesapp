@@ -1,11 +1,19 @@
 
 body{
-    background-color: rgb(43, 38, 38);
+    background-color: chocolate;
     color: white;
+}
+.bg{
+  background-image: url(Assets/hands.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px auto;
+  
 }
 .img-one{
     width: auto;
     height: 700px;
+    padding-bottom: 50px;
+    border: 0px;
 }
 .first-section{
     margin-top: 70px;
@@ -22,7 +30,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 100px;
 line-height: 100px;
-color:whitesmoke;
+color:black;
 
 }
 
@@ -33,14 +41,14 @@ font-style: normal;
 font-weight: 300;
 font-size: 16px;
 line-height: 16px;
-color: whitesmoke;
+color:black;
 
 }
 
 .second-section{
 /* */
  padding: 100px;
- background-color: burlywood;
+ background-color: rgb(73, 64, 64);
 }
 input[type=text], select {
     width: 100%;
@@ -72,4 +80,7 @@ input[type=text], select {
     background-color: #f2f2f2;
     padding: 20px;
     color: black;
+  }
+  #lorem{
+      padding: 100px;
   }
