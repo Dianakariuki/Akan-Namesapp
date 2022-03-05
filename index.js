@@ -51,21 +51,22 @@ function akan(){
         }
         else if(birthday==1 && gender=="female") {
           document.getElementById("results").innerHTML = female [1];
+         
         } 
        else  if(birthday==2 && gender=="female") {
-          document.getElementById("results").innerHTML = female [2];
+        document.getElementById("results").innerHTML  =  female [2];
         } 
       else  if(birthday==3 && gender=="female") {
-          document.getElementById("results").innerHTML = female [3];
+        document.getElementById("results").innerHTML = female [3];
         } 
      else   if(birthday==4 && gender=="female") {
-          document.getElementById("results").innerHTML = female [4];
+      document.getElementById("results").innerHTML = female [4];
         } 
     else    if(birthday==5 && gender=="female") {
-          document.getElementById("results").innerHTML = female [5];
+      document.getElementById("results").innerHTML = female [5];
         } 
       else  if (birthday==6 && gender=="female") {
-          document.getElementById("results").innerHTML = female [6];
+        document.getElementById("results").innerHTML = female [6];
         }  
     }
 }
