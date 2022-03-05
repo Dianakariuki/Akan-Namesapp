@@ -36,17 +36,15 @@
     <div class="top">
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#"><strong> Home</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#"><strong>Checker</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#"><strong>footer</strong></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
+     
     </ul>
   </div>
   <!-- first section -->
@@ -89,25 +87,36 @@
     </div>
     <div class="col-sm-6">
       <!-- date-form -->
-      <div class="form">
-        <form action="/action_page.php">
-          <label for="fname">Year of Birth</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Month of Birth</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">date of birth</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-        
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-
+      <form action="/action_page.php" class="was-validated">
+        <div class="mb-3 mt-3">
+          <label for="uname" class="form-label">Year of Birth:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Year eg.2022" name="uname" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Month of Birth:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="month eg.09" name="pswd" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Date of Birth:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Date eg.24" name="pswd" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+          <label class="form-check-label" for="check1">Female</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+          <label class="form-check-label" for="check2">Male</label>
+        </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
   </div>
 
 </section>

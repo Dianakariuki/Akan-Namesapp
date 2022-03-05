@@ -19,7 +19,15 @@ body{
     margin-top: 0px;
     position: relative;
     bottom: 50px;
+   
 
+}
+
+.nav-link{
+  color: white;
+  font-family: Roboto, Lato, Open Sans, Montserrat, Georgia, Playfair Display Bold;
+  font: bold;
+  font-weight: 500;
 }
 #Akan{
 font-family:Roboto, Lato, Open Sans, Montserrat, Georgia, Playfair Display Bold;
