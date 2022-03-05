@@ -1,17 +1,20 @@
 function akan(){
     var year = parseFloat(document.getElementById("Year").value);
-    //console.log(year);
+    console.log(year);
   
     var month = parseFloat(document.getElementById("Month").value);
-    //console.log(month);
+    console.log(month);
   
     var day = parseFloat(document.getElementById("Date").value);
-    //console.log(day)
+    console.log(day)
 
-    var birthday = Math.round((  + ((5*(year)/4) ) + ((26*(month+1)/10)) + day ) % 7) ;
+    var century = parseFloat(year/100) +1;
+    console.log(century);
+
+    var birthday= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7;
 
     var gender = document.getElementById("gender").value;
-    //console.log(gender);
+    console.log(gender);
 
 
     var male= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
@@ -22,45 +25,45 @@ function akan(){
         if(birthday==0 && gender=="male") {
           document.getElementById("results").innerHTML = male [0];
         }
-        if(birthday==1 && gender=="male") {
+        else if(birthday==1 && gender=="male") {
           document.getElementById("results").innerHTML = male [1];
         }
-        if(birthday==2 && gender=="male") {
+       else if (birthday==2 && gender=="male") {
           document.getElementById("results").innerHTML = male [2];
         }
-        if(birthday==3 && gender=="male") {
+       else if (birthday==3 && gender=="male") {
           document.getElementById("results").innerHTML = male [3];
         }
-        if(birthday==4 && gender=="male") {
+      else if (birthday==4 && gender=="male") {
           document.getElementById("results").innerHTML = male [4];
         }
-        if(birthday==5 && gender=="male") {
+      else if (birthday==5 && gender=="male") {
           document.getElementById("results").innerHTML = male [5];
         }
-        if(birthday==6 && gender=="male") {
+       else  if(birthday==6 && gender=="male") {
           document.getElementById("results").innerHTML = male [6];
         }
-
+/*female*/
 
         if(birthday==0 && gender=="female") {
           document.getElementById("results").innerHTML = female [0];
         }
-        if(birthday==1 && gender=="female") {
+        else if(birthday==1 && gender=="female") {
           document.getElementById("results").innerHTML = female [1];
         } 
-        if(birthday==2 && gender=="female") {
+       else  if(birthday==2 && gender=="female") {
           document.getElementById("results").innerHTML = female [2];
         } 
-        if(birthday==3 && gender=="female") {
+      else  if(birthday==3 && gender=="female") {
           document.getElementById("results").innerHTML = female [3];
         } 
-        if(birthday==4 && gender=="female") {
+     else   if(birthday==4 && gender=="female") {
           document.getElementById("results").innerHTML = female [4];
         } 
-        if(birthday==5 && gender=="female") {
+    else    if(birthday==5 && gender=="female") {
           document.getElementById("results").innerHTML = female [5];
         } 
-        if (birthday==6 && gender=="female") {
+      else  if (birthday==6 && gender=="female") {
           document.getElementById("results").innerHTML = female [6];
         }  
     }
