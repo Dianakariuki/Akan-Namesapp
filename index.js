@@ -24,6 +24,7 @@ function akan(){
     {
         if(birthday==0 && gender=="male") {
           document.getElementById("results").innerHTML = male [0];
+          
         }
         else if(birthday==1 && gender=="male") {
           document.getElementById("results").innerHTML = male [1];
