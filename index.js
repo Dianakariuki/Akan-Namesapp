@@ -7,4 +7,10 @@ function akan(){
   
     var day = parseFloat(document.getElementById("Date").value);
     //console.log(day)
+
+    var birthday = Math.round((  + ((5*(year)/4) ) + ((26*(month+1)/10)) + day ) % 7) ;
+
+    var gender = document.getElementById("gender").value;
+    //console.log(gender);
+
 }
