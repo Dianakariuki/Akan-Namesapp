@@ -1,20 +1,20 @@
 function akan(){
     var year = parseFloat(document.getElementById("Year").value);
-    console.log(year);
+   // console.log(year);
   
     var month = parseFloat(document.getElementById("Month").value);
-    console.log(month);
+   // console.log(month);
   
     var day = parseFloat(document.getElementById("Date").value);
-    console.log(day)
+   // console.log(day)
 
     var century = parseFloat(year/100) +1;
-    console.log(century);
+  //  console.log(century);
 
     var birthday= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7;
 
     var gender = document.getElementById("gender").value;
-    console.log(gender);
+   // console.log(gender);
 
 
     var male= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
