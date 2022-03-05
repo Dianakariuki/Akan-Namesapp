@@ -1,20 +1,17 @@
 
 body{
-    background-color: chocolate;
+    background-color: rgb(5, 5, 5);
     color: white;
 }
-.bg{
-  background-image: url(Assets/hands.jpg);
+/*.bg{
+  
   background-repeat: no-repeat;
   background-size: 2000px auto;
+  height: 700px;
+  width: auto;
   
-}
-.img-one{
-    width: auto;
-    height: 700px;
-    padding-bottom: 50px;
-    border: 0px;
-}
+}*/
+
 .first-section{
     margin-top: 70px;
 }
@@ -25,24 +22,34 @@ body{
 
 }
 #Akan{
-font-family: Haas Grot Text R Web, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Roboto, Lato, Open Sans, Montserrat, Georgia, Playfair Display Bold;
 font-style: normal;
 font-weight: 700;
 font-size: 100px;
 line-height: 100px;
-color:black;
+color:whitesmoke;
+position: relative;
+bottom: 40px;
 
 }
 
 #desc{
 
-font-family: Haas Grot Text R Web, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:Roboto, Lato, Open Sans, Montserrat, Georgia, Playfair Display italic ;
 font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 16px;
-color:black;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+color:whitesmoke;
 
+
+}
+.image-1{
+  height: 600px;
+  width: auto;
+  border-radius: 60%;
+  position: relative;
+  bottom: 160px;
 }
 
 .second-section{
