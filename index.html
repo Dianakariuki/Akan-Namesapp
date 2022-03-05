@@ -89,30 +89,30 @@
       <!-- date-form -->
       <form action="/action_page.php" class="was-validated">
         <div class="mb-3 mt-3">
-          <label for="uname" class="form-label">Year of Birth:</label>
-          <input type="text" class="form-control" id="uname" placeholder="Year eg.2022" name="uname" required>
+          <label for="Year" class="form-label">Year of Birth:</label>
+          <input type="text" class="form-control" id="Year" placeholder="Year eg.2022" name="Year" required>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="pwd" class="form-label">Month of Birth:</label>
-          <input type="password" class="form-control" id="pwd" placeholder="month eg.09" name="pswd" required>
+          <label for="Month" class="form-label">Month of Birth:</label>
+          <input type="password" class="form-control" id="Month" placeholder="month eg.09" name="Month" required>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="mb-3">
-          <label for="pwd" class="form-label">Date of Birth:</label>
-          <input type="password" class="form-control" id="pwd" placeholder="Date eg.24" name="pswd" required>
+          <label for="Date" class="form-label">Date of Birth:</label>
+          <input type="password" class="form-control" id="Date" placeholder="Date eg.24" name="Date" required>
           <div class="valid-feedback">Valid.</div>
           <div class="invalid-feedback">Please fill out this field.</div>
         </div>
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
-          <label class="form-check-label" for="check1">Female</label>
+          <input type="radio" class="form-check-input" id="gender" name="optradio" value="male" checked>male
+          <label class="form-check-label" for="radio1"></label>
         </div>
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
-          <label class="form-check-label" for="check2">Male</label>
+          <input type="radio" class="form-check-input" id="gender" name="optradio" value="female">female
+          <label class="form-check-label" for="radio2"></label>
         </div>
       <button type="submit" class="btn btn-primary">Submit</button>
       </form>
