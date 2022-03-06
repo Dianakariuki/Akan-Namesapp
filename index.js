@@ -64,6 +64,7 @@ function akan(gender, month, date, year){
     //console.log(birthday);
     
     var gender = document.getElementById("gender").value;
+    var gender = document.getElementById("gen").value;
 
     var male= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     
