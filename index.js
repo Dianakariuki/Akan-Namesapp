@@ -2,12 +2,7 @@
 
 
 
-// var birthday= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) % 7;
-
-// var gender = document.getElementById("input#gender").value;
-// console.log(gender);
-
-
+//UI LOGIC
 
   var form = document.querySelector("form");
 
@@ -37,12 +32,9 @@
     }
   });
 
-   // var birthday= ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date) % 7;
-    
-   //  alert(birthday);
-    //event.preventDefault();
+  
    
- 
+ //bussiness logic
 function akan(gender, month, date, year){
       var year = parseInt(document.getElementById("year").value);
     //console.log(year);
